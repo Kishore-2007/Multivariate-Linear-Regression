@@ -28,7 +28,7 @@ print('Coefficients:', regr.coef_)
 print('Intercept:', regr.intercept_)
 input_data = pd.DataFrame({'Weight': [3300], 'Volume': [1300]})
 predictedCO2 = regr.predict(input_data)
-print('Predicted CO2 for the corresponding weight and volume:', predictedCO2)
+print('Predicted CO2 for the corresponding weight and volume:',predictedCO2)
 ```
 ## Output:
 ![image](https://github.com/user-attachments/assets/a0b5e0ab-8595-417e-8a03-f1e755ed31dc)
